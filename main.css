@@ -36,7 +36,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_92 {
+.testimonial {
   width: 100%;
   height: 720px;
   background: url("v45_92.png");
@@ -67,7 +67,7 @@ body {
   left: 989px;
   border: 3px solid rgba(255,239,207,1);
 }
-.v72_110 {
+.tst_card {
   width: 500px;
   height: 575px;
   background: rgba(248,247,255,1);
@@ -77,7 +77,7 @@ body {
   left: 1282px;
   overflow: hidden;
 }
-.v72_111 {
+.score {
   width: 212px;
   color: rgba(155,125,64,1);
   position: absolute;
@@ -89,7 +89,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v72_112 {
+.tst_txt {
   width: 370px;
   color: rgba(32,31,33,1);
   position: absolute;
@@ -101,7 +101,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v72_113 {
+.tst_auth {
   width: 380px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -113,99 +113,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v72_106 {
-  width: 500px;
-  height: 575px;
-  background: rgba(248,247,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 58px;
-  left: 728px;
-  overflow: hidden;
-}
-.v72_107 {
-  width: 212px;
-  color: rgba(155,125,64,1);
-  position: absolute;
-  top: 41px;
-  left: 41px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v72_108 {
-  width: 370px;
-  color: rgba(32,31,33,1);
-  position: absolute;
-  top: 130px;
-  left: 41px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v72_109 {
-  width: 380px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 480px;
-  left: 41px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: left;
-}
-.v45_94 {
-  width: 500px;
-  height: 575px;
-  background: rgba(248,247,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 58px;
-  left: 174px;
-  overflow: hidden;
-}
-.v72_90 {
-  width: 212px;
-  color: rgba(155,125,64,1);
-  position: absolute;
-  top: 41px;
-  left: 41px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 40px;
-  opacity: 1;
-  text-align: left;
-}
-.v72_91 {
-  width: 370px;
-  color: rgba(32,31,33,1);
-  position: absolute;
-  top: 130px;
-  left: 41px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v72_92 {
-  width: 380px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 480px;
-  left: 41px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: left;
-}
-.v36_67 {
+.product_container {
   width: 100%;
   height: 680px;
   background: url("v36_67.png");
@@ -218,7 +126,7 @@ body {
   left: 149px;
   overflow: hidden;
 }
-.v72_78 {
+.prd_card {
   width: 495px;
   height: 680px;
   background: url("v72_78.png");
@@ -231,19 +139,7 @@ body {
   left: 1129px;
   overflow: hidden;
 }
-.v72_79 {
-  width: 91px;
-  color: rgba(255,239,207,1);
-  position: absolute;
-  top: 553px;
-  left: 52px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v72_80 {
+.prd_txt {
   width: 405px;
   color: rgba(255,239,207,1);
   position: absolute;
@@ -255,29 +151,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v72_81 {
-  width: 36px;
-  background: url("v72_81.png");
-  opacity: 1;
-  position: absolute;
-  top: 634px;
-  left: 404px;
-  border: 2px solid rgba(255,239,207,1);
-}
-.v36_73 {
-  width: 495px;
-  height: 680px;
-  background: url("v36_73.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 596px;
-  overflow: hidden;
-}
-.v36_74 {
+.prd_add {
   width: 91px;
   color: rgba(255,239,207,1);
   position: absolute;
@@ -289,19 +163,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v72_75 {
-  width: 405px;
-  color: rgba(255,239,207,1);
-  position: absolute;
-  top: 593px;
-  left: 52px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: left;
-}
-.v72_76 {
+.prd_arr {
   width: 36px;
   background: url("v72_76.png");
   opacity: 1;
@@ -432,7 +294,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v38_81 {
+.unq_container {
   width: 100%;
   height: 671px;
   background: url("v38_81.png");
@@ -445,7 +307,7 @@ body {
   left: 1px;
   overflow: hidden;
 }
-.v72_68 {
+.unq_card {
   width: 500px;
   height: 324px;
   background: rgba(248,247,255,1);
@@ -456,77 +318,7 @@ body {
   box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.11999999731779099);
   overflow: hidden;
 }
-.v72_70 {
-  width: 408px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 110px;
-  left: 46px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_71 {
-  width: 400px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 49px;
-  left: 50px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_64 {
-  width: 546px;
-  height: 324px;
-  background: rgba(248,247,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 229px;
-  left: 711px;
-  box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.11999999731779099);
-  overflow: hidden;
-}
-.v72_66 {
-  width: 408px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 112px;
-  left: 69px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_67 {
-  width: 400px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 47px;
-  left: 73px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_61 {
-  width: 546px;
-  height: 324px;
-  background: rgba(248,247,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 227px;
-  left: 115px;
-  box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.11999999731779099);
-  overflow: hidden;
-}
-.v72_63 {
+.unq_det {
   width: 408px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -538,7 +330,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v72_58 {
+.unq_head {
   width: 400px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -562,7 +354,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v35_61 {
+.about_container {
   width: 100%;
   height: 644px;
   background: url("v35_61.png");
@@ -575,7 +367,7 @@ body {
   left: 148px;
   overflow: hidden;
 }
-.v35_62 {
+.about_card {
   width: 832px;
   height: 443px;
   background: rgba(248,252,255,1);
@@ -586,7 +378,7 @@ body {
   box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.3199999928474426);
   overflow: hidden;
 }
-.v57_26 {
+.arrow_about {
   width: 29px;
   background: url("v57_26.png");
   opacity: 1;
@@ -595,7 +387,7 @@ body {
   left: 715px;
   border: 2px solid rgba(32,31,33,1);
 }
-.v57_25 {
+.learn {
   width: 110px;
   color: rgba(32,31,33,1);
   position: absolute;
@@ -604,7 +396,6 @@ body {
   font-family: A Iranian Sans;
   font-weight: Regular;
   font-size: 20px;
-  opacity: 1;
   text-align: left;
 }
 .v57_21 {
@@ -644,7 +435,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v57_19 {
+.abt_btn {
   width: 160px;
   color: rgba(32,31,33,1);
   position: absolute;
@@ -656,7 +447,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v6_3 {
+.header {
   width: 100%;
   height: 1038px;
   background: url("v6_3.png");
@@ -669,7 +460,7 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v50_158 {
+.arrow {
   width: 48px;
   background: url("v50_158.png");
   opacity: 1;
@@ -678,7 +469,7 @@ body {
   left: 1816px;
   border: 3px solid rgba(255,239,207,1);
 }
-.v31_60 {
+.menu_holder {
   width: 100%;
   height: 143px;
   background: rgba(255,255,255,1);
@@ -691,7 +482,7 @@ body {
 .name {
   color: #fff;
 }
-.v72_149 {
+.lang {
   width: 61px;
   color: rgba(32,31,33,1);
   position: absolute;
@@ -703,7 +494,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_127 {
+.item_holder {
   width: 485px;
   height: 35px;
   background: url("v45_127.png");
@@ -717,7 +508,7 @@ body {
   left: 717px;
   overflow: hidden;
 }
-.v45_119 {
+.item{
   width: 86px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -729,31 +520,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v45_124 {
-  width: 132px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 142px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: left;
-}
-.v45_125 {
-  width: 155px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 330px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: left;
-}
-.v45_116 {
+.logo {
   width: 160px;
   height: 140px;
   background: url("v45_116.png");
@@ -766,7 +533,7 @@ body {
   left: 71px;
   overflow: hidden;
 }
-.v48_128 {
+.banner_holder {
   width: 100%;
   height: 143px;
   background: rgba(255,255,255,1);
@@ -777,21 +544,13 @@ body {
   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-.v72_146 {
+.banner_container {
   width: 330px;
   height: 85px;
-  background: url("v72_146.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   margin: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 29px;
-  left: 1211px;
   overflow: hidden;
 }
-.v72_147 {
+.num {
   width: 330px;
   color: rgba(32,31,33,1);
   position: absolute;
@@ -803,121 +562,7 @@ body {
   opacity: 1;
   text-align: center;
 }
-.v72_148 {
-  width: 330px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_143 {
-  width: 330px;
-  height: 85px;
-  background: url("v72_143.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 29px;
-  left: 812px;
-  overflow: hidden;
-}
-.v72_144 {
-  width: 330px;
-  color: rgba(32,31,33,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_145 {
-  width: 330px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_141 {
-  width: 330px;
-  height: 85px;
-  background: url("v72_141.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 29px;
-  left: 413px;
-  overflow: hidden;
-}
-.v72_139 {
-  width: 330px;
-  color: rgba(32,31,33,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_140 {
-  width: 330px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 50px;
-  left: 0px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_142 {
-  width: 240px;
-  height: 85px;
-  background: url("v72_142.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 29px;
-  left: 104px;
-  overflow: hidden;
-}
-.v72_137 {
-  width: 240px;
-  color: rgba(32,31,33,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: A Iranian Sans;
-  font-weight: Regular;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
-}
-.v72_138 {
+.ban_txt {
   width: 240px;
   color: rgba(0,0,0,1);
   position: absolute;
