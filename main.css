@@ -1,18 +1,20 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-size: 14px;
+  font-size: 1rem; /* 16px default */
   margin: 0;
   padding: 0;
   font-family: 'A Iranian Sans', sans-serif;
+  line-height: 1.5;
 }
 
 /* === Main Container === */
 .v3_2 {
   width: 100%;
-  height: 5541px;
-  background: #f8fbff;
+  height: 100%;
+  background: rgba(248, 251, 255, 1);
   position: absolute;
   top: 0;
   left: 0;
@@ -23,21 +25,21 @@ body {
 .v45_109 {
   width: 100%;
   height: 591px;
-  background: #1b1a50;
+  background: rgba(27, 26, 80, 1);
   position: absolute;
   top: 4950px;
   left: 0;
-  overflow: hidden;
 }
 
 /* === Section Header Text === */
 .v72_117 {
   width: 100%;
-  color: #f8f7ff;
+  color: rgba(248, 247, 255, 1);
   position: absolute;
   top: 275px;
   left: 88px;
-  font-size: 36px;
+  font-size: 2.25rem; /* 36px */
+  font-weight: normal;
   text-align: left;
 }
 
@@ -45,8 +47,173 @@ body {
 .v45_92 {
   width: 100%;
   height: 720px;
-  background: url("v45_92.png") no-repeat center/cover;
+  background: url("v45_92.png") no-repeat center center/cover;
   position: absolute;
   top: 4230px;
   left: 0;
-  overflow
+}
+
+/* === Icons === */
+.v72_116, .v72_114 {
+  width: 3rem; /* 48px */
+  height: 3rem; /* 48px */
+  background-size: contain;
+  position: absolute;
+  top: 678px;
+  border: 3px solid rgba(255, 239, 207, 1);
+}
+
+.v72_116 {
+  left: 973px;
+  background: url("v72_116.png") no-repeat;
+}
+
+.v72_114 {
+  left: 989px;
+  background: url("v72_114.png") no-repeat;
+}
+
+/* === Info Cards === */
+.info-card {
+  width: 31.25rem; /* 500px */
+  height: 35.94rem; /* 575px */
+  background: rgba(248, 247, 255, 1);
+  position: absolute;
+  overflow: hidden;
+}
+
+.card-title {
+  color: rgba(155, 125, 64, 1);
+  font-family: Inter, sans-serif;
+  font-size: 2.5rem; /* 40px */
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.card-description {
+  color: rgba(32, 31, 33, 1);
+  font-size: 1.5rem; /* 24px */
+  position: absolute;
+  top: 8.125rem; /* 130px */
+  left: 1.5rem;
+}
+
+.card-price {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.875rem; /* 30px */
+  position: absolute;
+  top: 30rem; /* 480px */
+  left: 1.5rem;
+}
+
+/* === Positioning Cards === */
+.v45_94, .v72_106, .v72_110 {
+  @extend .info-card;
+}
+
+.v45_94 {
+  top: 58px;
+  left: 174px;
+}
+
+.v72_106 {
+  top: 58px;
+  left: 728px;
+}
+
+.v72_110 {
+  top: 58px;
+  left: 1282px;
+}
+
+/* === Section Images === */
+.v36_67, .v37_77 {
+  width: 100%;
+  height: 42.5rem; /* 680px */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+}
+
+.v36_67 {
+  top: 3412px;
+  left: 149px;
+  background-image: url("v36_67.png");
+}
+
+.v37_77 {
+  top: 2618px;
+  left: 0;
+  background-image: url("v37_77.png");
+}
+
+/* === CTA Boxes === */
+.cta-box {
+  width: 31.25rem; /* 495px */
+  height: 42.5rem; /* 680px */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+}
+
+.v72_78 {
+  top: 0;
+  left: 1129px;
+  background-image: url("v72_78.png");
+}
+
+.v36_73 {
+  top: 0;
+  left: 596px;
+  background-image: url("v36_73.png");
+}
+
+/* === Buttons and Labels === */
+.button {
+  width: 12.25rem; /* 196px */
+  height: 4.44rem; /* 71px */
+  background: rgba(27, 26, 80, 1);
+  border-radius: 2.5rem; /* 40px */
+  position: absolute;
+  overflow: hidden;
+}
+
+.v72_87 {
+  top: 442px;
+  left: 189px;
+}
+
+.v64_56 {
+  width: 17.5rem; /* 280px */
+  height: 5rem; /* 80px */
+  background: rgba(248, 247, 255, 1);
+  border-radius: 2.5rem; /* 40px */
+  position: absolute;
+  top: 441px;
+  left: 208px;
+}
+
+/* Label for buttons */
+.v72_88, .v64_57 {
+  width: 4rem; /* 64px */
+  font-size: 2.25rem; /* 36px */
+  position: absolute;
+  color: rgba(248, 247, 255, 1);
+  text-align: center;
+}
+
+.v72_88 {
+  top: 15px;
+  left: 66px;
+}
+
+.v64_57 {
+  color: rgba(0, 0, 0, 1);
+  top: 19px;
+  left: 108px;
+}
